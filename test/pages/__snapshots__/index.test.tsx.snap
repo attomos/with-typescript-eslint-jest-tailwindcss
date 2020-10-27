@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IndexPage matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <header>
+      <nav>
+        <a
+          href="/"
+        >
+          Home
+        </a>
+         | 
+        <a
+          href="/users"
+        >
+          Users List
+        </a>
+         | 
+        <a
+          href="/api/users"
+        >
+          Users API
+        </a>
+      </nav>
+    </header>
+    <h2>
+      Helllo
+    </h2>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        test
+      </span>
+    </button>
+    <footer>
+      <hr />
+      <span>
+        I'm here to stay (Footer)
+      </span>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
