@@ -44,8 +44,5 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  },
-  "lint-staged": {
-    "*.{js,ts,tsx,css,md}": "prettier --check"
   }
 }
