@@ -1,8 +1,9 @@
-# NextJS Typescript Boilerplate (with Material UI, SSR fix, and better configs)
+# NextJS Typescript Boilerplate (with TypeScript and tailwindcss)
 
 Bootstrap a developer-friendly NextJS app configured with:
 
 - [Typescript](https://www.typescriptlang.org/)
+- Styling with [tailwindcss](https://tailwindcss.com/)
 - Linting with [ESLint](https://eslint.org/)
 - Formatting with [Prettier](https://prettier.io/)
 - Linting, typechecking and formatting on by default using [`husky`](https://github.com/typicode/husky) for commit hooks
@@ -12,16 +13,16 @@ Bootstrap a developer-friendly NextJS app configured with:
 
 Deploy the example using [Vercel](https://vercel.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/attomos/with-typescript-eslint-jest-materialui-ssrfix)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/attomos/with-typescript-eslint-jest-tailwindcss)
 
 ## How to use
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
-$ npx create-next-app --example https://github.com/attomos/with-typescript-eslint-jest-materialui-ssrfix my-app
+$ npx create-next-app --example https://github.com/attomos/with-typescript-eslint-jest-tailwindcss my-app
 # or
-$ yarn create next-app --example https://github.com/attomos/with-typescript-eslint-jest-materialui-ssrfix my-app
+$ yarn create next-app --example https://github.com/attomos/with-typescript-eslint-jest-tailwindcss my-app
 
 # install git hooks
 $ cd my-app

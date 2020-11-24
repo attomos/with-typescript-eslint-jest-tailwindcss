@@ -1,20 +1,17 @@
-import { Button } from "@material-ui/core";
 import { ReactElement } from "react";
 import Layout from "../components/Layout";
 
 function IndexPage(): ReactElement {
+  const items = [...Array(500).keys()];
   return (
     <Layout title="Home | Next.js + TypeScript Example">
-      <h2>Helllo</h2>
-      <Button
-        variant="contained"
-        color="primary"
-        onClick={() => {
-          window.alert("With typescript and Jest");
-        }}
-      >
-        test
-      </Button>
+      <div className="border-solid border-2 h-64 overflow-y-auto scrollbar-w-2 scrollbar-track-gray-lighter scrollbar-thumb-rounded scrollbar-thumb-gray scrolling-touch">
+        <ul>
+          {items.map((i) => {
+            return <li key={i}>{i}</li>;
+          })}
+        </ul>
+      </div>
     </Layout>
   );
 }
